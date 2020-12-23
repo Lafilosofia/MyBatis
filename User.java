@@ -1,60 +1,47 @@
 package entity;
 
 public class User {
-	private int id;
-	private String user_name;
-	private String user_password;
-	private int user_age;
-	private Double sal;
+	private int userId;
+	private String userName;
+	private String userPassword;
+	private double userSal;
+	private int userAge;
 	
-	public int getId() {
-		return id;
+	public int getUserId() {
+		return userId;
 	}
-	public void setId(int id) {
-		this.id = id;
+	public void setUserId(int userId) {
+		this.userId = userId;
 	}
-	public String getUser_name() {
-		return user_name;
+	public String getUserName() {
+		return userName;
 	}
-	public void setUser_name(String user_name) {
-		this.user_name = user_name;
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
-	public String getUser_password() {
-		return user_password;
+	public String getUserPassword() {
+		return userPassword;
 	}
-	public void setUser_password(String user_password) {
-		this.user_password = user_password;
+	public void setUserPassword(String userPassword) {
+		this.userPassword = userPassword;
 	}
-	public int getUser_age() {
-		return user_age;
+	public double getUserSal() {
+		return userSal;
 	}
-	public void setUser_age(int user_age) {
-		this.user_age = user_age;
+	public void setUserSal(double userSal) {
+		this.userSal = userSal;
 	}
-	public Double getSal() {
-		return sal;
+	public int getUserAge() {
+		return userAge;
 	}
-	public void setSal(Double sal) {
-		this.sal = sal;
+	public void setUserAge(int userAge) {
+		this.userAge = userAge;
 	}
-	
-	
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", user_name=" + user_name + ", user_password=" + user_password + ", user_age="
-				+ user_age + ", sal=" + sal + "]";
+		return "User2 [userId=" + userId + ", userName=" + userName + ", userPassword=" + userPassword + ", userSal="
+				+ userSal + ", userAge=" + userAge + "]";
 	}
-	
-	public User() {
-		super();
-		this.id = id;
-		this.user_name = user_name;
-		this.user_password = user_password;
-		this.user_age = user_age;
-		this.sal = sal;
-	}
-	
-	
 	
 	
 }
